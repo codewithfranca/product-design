@@ -1,0 +1,153 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            font-size: 16px;
+            font-family: Tahoma, sans-serif;
+            color: hsl(102, 74%, 18%);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-container {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(244, 219, 175, 0.326);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sub-container {
+            display: flex;
+            align-items: center;
+            height: 50%;
+            width: 75%;
+            overflow: hidden;
+            /* border: 1px solid rgb(255, 255, 255); */
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px rgba(90, 88, 88, 0.3);
+
+        }
+
+        .details {
+            margin: 15px;
+            width: 50%;
+
+        }
+
+        .price-tag {
+            display: flex;
+            /* justify-content: space-between; */
+            align-items: center;
+        }
+
+        .addtocart {
+            color: white;
+            background-color: rgb(60, 135, 60);
+            border: 1px solid rgb(127, 126, 125);
+            border-radius: 10px;
+            margin: 15px;
+            box-shadow: 5px 5px 15px rgba(132, 130, 130, 0.3);
+        }
+
+        .img {
+            height: 100%;
+            width: 50%;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .perf {
+            font-size: 13px;
+
+
+        }
+
+        .price-tag {
+            margin-top: 20px;
+        }
+
+        h4 {
+            margin: 0;
+            margin: 16px 0px;
+            margin-right: 40px;
+            font-size: 22px;
+        }
+
+        .price1 {
+            font-size: 25px;
+            /* margin: 8px; */
+            margin-right: 10px;
+        }
+
+        .price2 {
+            text-decoration: line-through;
+            /* margin: 5px; */
+        }
+
+        .cart {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 14px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="sub-container">
+            <div class="img">
+                <img src="images/image-product-desktop.jpg" alt="">
+            </div>
+            <div class="details">
+
+                <p class="perf">
+                    PERFUME
+                </p>
+                <h4>
+                    Gabrielle Essence Eau De Parfum
+                </h4>
+                <p class="perf">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                    Perfumer-Creator for the House of CHANEL.
+                </p>
+                <div class="price-tag">
+                    <h5 class="price1">
+                        $149.99
+                    </h5>
+                    <h5 class="price2">
+                        $169.99
+                    </h5>
+                </div>
+                <div class="addtocart">
+                    <p class="cart">Add to cart</p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
